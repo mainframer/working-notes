@@ -1,4 +1,4 @@
-#Watir & Selenium Web自动化学习
+#Watir, Selenium Web自动化学习
 ----------
 ###知识点难点
 - 需要注意的是，有时候如果web元素找不到，看看其中是否包含有iFrame，如果包含有的话，需要加上frame前缀。  

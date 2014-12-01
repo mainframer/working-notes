@@ -1,10 +1,10 @@
-#IBM Rational CLM产品安装配置
+##IBM Rational CLM产品安装配置
 ----------
-##Helpful Jazz Articles
-1.**拓扑Topologies:**  [https://jazz.net/library/article/820](https://jazz.net/library/article/820)
+###Helpful Jazz Articles
+**拓扑Topologies:**  [https://jazz.net/library/article/820](https://jazz.net/library/article/820)
 
-##不同的安装方式
-###1、 By Using Web Installer
+###不同的安装方式
+###1. By Using Web Installer
 - Windows x86 (260.87 MB)
 - Linux x86 (260.51 MB)
 - Solaris-64 (130.66 MB)
@@ -44,7 +44,7 @@ CLM-Web-Installer-Linux-4.0.6M1(能用来安装server/client/BuildToolKit)
 	默认同时安装SCM Command Line Tool 
 	自己选择要不要安装IBM JRE6.0
 
-###2、By Using IM (IBM Install Manager)    
+###2. By Using IM (IBM Install Manager)    
 ###Install in Windows by IM Repositories offering
 #####Infor Center:   [Click here InfoCenter](http://pic.dhe.ibm.com/infocenter/clmhelp/v3r0m1/index.jsp?topic=%2Fcom.ibm.jazz.install.doc%2Ftopics%2Ft_s_server_installation.html)  
 添加 http://jazzweb.beaverton.ibm.com/calm/main/I/CALM-I20131225-0551/calm-offerings-lpv4/repository/repository.config 到IM-->preference

@@ -6,7 +6,7 @@
 - **PDM**:Program Development Manager,系统提供的一个开发编程环境
 - **SDA**: Screen Design Aids:屏幕设计辅助软件，可产生目标显示文件和DDS源代码
 - **IDDU**:交互式数据描述软件，用于交互式定义数据文件，记录格式，字段等
-- **DFU**:Data File Utiility 数据文件应用软件，对数据库CRUDc操作
+- **DFU**:Data File Utiility 数据文件应用软件，对数据库CRUD操作
 ####2、使用CL命令
 	crtusrprf wrkusrprf dspcurdir wrkactjob
 	call qcmd:用命令窗口取代菜单窗口
@@ -27,11 +27,12 @@
 		 SEU编辑helloworld
 		 选项14编译
 #####6、IBMi上的RPG语言编程
+```
 	本地机器：i7adt01
 	创建source pf:crtsrcpf userid/rpgsrc
 	创建mem:addpfm userid/rpgsrc mytestrpg
 	wrkobjpdm userid ->'12'->'2' enter SEU编辑helloworld
 	用PF4来检查纠正RPG源文件语法错误，错误的会绿色高亮
-	
+```
 
 	

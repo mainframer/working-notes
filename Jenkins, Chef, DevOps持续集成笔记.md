@@ -1,4 +1,4 @@
-#Jenkins & Chef & DevOps笔记
+##Jenkins & Chef & DevOps持续集成笔记
 ---
 ###Jenkins [http://jenkins-ci.org/](http://jenkins-ci.org/)
 ####基础知识  
@@ -10,7 +10,7 @@
 - 运行：java -jar jenkins.war ，打开浏览器：http://localhost:8080/ 即可用Jenkins
 - 后台运行：nohup java -jar jenkins.war  
 
-####方式二——放在Tomcat中运行
+#####方式二——放在Tomcat中运行
 Mac下安装轻量级Web应用服务器容器Tomcat  
 - 官网下载[apache-tomcat-8.0.12.tar.gz](http://apache.fayea.com/apache-mirror/tomcat/tomcat-8/v8.0.12/bin/apache-tomcat-8.0.12.tar.gz)
 - 解压到~/Library/Tomcat

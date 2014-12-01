@@ -6,7 +6,7 @@
 - gem install mechanize
 - Add MyJazzHelper.rb and SCMCLIHelper.rb  to the C:\Ruby193\lib\ruby\site_ruby.
 
-####2、在Eclipse配置Debug环境的详细步骤：
+####2、在Eclipse配置Debug环境的详细步骤
 - *Eclipse IDE with debugger*: Modify Ruby Jazz REST library or write my own script
 - Download DevKit-tdm-32-4.5.2-20111229-1559-sfx.exe, extract to C:\Ruby193\devkit
 - execute 'ruby dk.rb init' and then 'ruby dk.rb install'

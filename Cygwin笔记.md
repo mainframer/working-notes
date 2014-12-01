@@ -20,12 +20,14 @@
 	
 - ~/.bashrc  
 - 变量：  输入env查看所有变量
+ 
   ```     
    CYGWIN: tty
-	path:  c:/cygwin/bin
+   path:  c:/cygwin/bin
     LD_LIBRARY_PATH中存储的是动态链接库所在的目录
 ```
 - Vim配置  
+
 `/usr/share/vim/vim73/.vimrc  ~/.vimrc`
 - 让配置实时生效
 ```	
@@ -34,11 +36,12 @@
 ```
 - 查看命令的用法： man -k xxx 
 - windows下面cygwin类似月apt-get的软件包安装管理器：`apt-cyg`
+
 ```
-    wget http://apt-cyg.googlecode.com/svn/trunk/apt-cyg -P /bin
-    chmod.exe +x /bin/apt-cyg
-    apt-cyg安装源为ftp://mirror.mcs.anl.gov，设置为网易镜像源。
-    pt-cyg -m http://mirrors.163.com/cygwin
+wget http://apt-cyg.googlecode.com/svn/trunk/apt-cyg -P /bin
+chmod.exe +x /bin/apt-cyg
+apt-cyg安装源为ftp://mirror.mcs.anl.gov，设置为网易镜像源。
+apt-cyg -m http://mirrors.163.com/cygwin
 apt-cyg update
 ```
 

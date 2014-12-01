@@ -1,4 +1,4 @@
-#Power System学习笔记
+##Power System学习笔记
 ----------
 ###红宝书
 [http://publib.boulder.ibm.com/html/as400/online/V4R4PDF.HTM](http://publib.boulder.ibm.com/html/as400/online/V4R4PDF.HTM)
@@ -39,7 +39,8 @@ Rational Developer for Power System（以下简称 RD Power） 是一个针对 I
 	Build System Toolkit安装目录： /QIBM/ProdData/RTC405/Build/jazz/buildsystem/buildtoolkit，通过'GO LICPGM'安装
 	Rational Build(Forge) Agent安装目录：/QIBM/ProdData/RTC405/Build/jazz/buildsystem/buildagent 通过'GO LICPGM'安装
 	./startbfa.qsh: 启动build agent （目录见上面)
-##IBM i Navigator
+
+###IBM i Navigator
 [IBM Navigator for i 的学习路线图](https://www.ibm.com/developerworks/community/blogs/IBMi/entry/knowledge_path_of_ibm_navigator_for_i?lang=zh "IBM Navigator for i 的学习路线图")  
 
 

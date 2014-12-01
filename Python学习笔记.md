@@ -2,8 +2,8 @@
 ####Python常识
 - Python诞生1989年圣诞，由龟叔因无聊发明  
 - 龟叔给Python的定义：**优雅，明确，简单**  
-- Python的解释器：最常用CPython，用C语言编写，其他的还有JPython, IPython,Pypy等.  
-![Python编译](./image/python compile.jpg)
+- Python的解释器：最常用CPython，用C语言编写，其他的还有JPython, IPython,Pypy等.    
+![Python编译](./images/python compile.jpg)
 - Python最具特色的是用**冒号和缩进**来标明成块的代码,Python这样设计的理由纯粹是为了程序好看。
 
 ####一些教程

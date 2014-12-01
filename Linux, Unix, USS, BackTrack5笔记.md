@@ -1,4 +1,4 @@
-#Linux/Unix/USS/BackTrack5笔记
+#Linux, Unix, USS, BackTrack5笔记
 ----------
 ##Linux常用命令
 ####[终端Terminal]
@@ -58,8 +58,8 @@
 ##USS(Unix System Service)常用命令
 ####USS基础知识
 - 1994 年，MVS4.3（一个z/OS 老版本）提供了UNIX，从此可以用C或者Java编程
-- 跟USS打交道的方法(如图)：
-![](./image/uss_1.jpg)
+- 跟USS打交道的方法(如图)：  
+![](./images/uss_1.jpg)
 - HFS： Hierarchical File System
 
 ####[常见命令]
