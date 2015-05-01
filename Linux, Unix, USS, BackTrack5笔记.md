@@ -2,34 +2,36 @@
 ----------
 ##Linux常用命令
 ####[终端Terminal]
-	   Shift+Ctrl+T: New a tab in Terminal  
-	   Ctrl+Pgup:    move to new tab   
-	   Shift+Ctrl+W: CLose current tab     
-	   Shift+ctrl+Q: Close current Terminal   
-	   Ctrl+A: Go back to the beginning of your command   
-	   ctrl  + U 清除光标以前所有的字符
-	   ctrl  + K 清除从光标到结尾所有的字符
+           Command+T: 打开一个新的标签 [iTerms2]
+	   Ctrl+A/E 将光标置于最前/末
+	   Ctrl+U/K 清除光标以前/后所有的字符
+	   Ctrl+B/F 光标向前/后移动一个字符
+	   Ctrl+H/D 光标处往前/后删除一个字符
+	   CTRl+R   搜索历史命令
 ####[文件File]
 	   df :显示磁盘空间使用情况
 	   grep -r 'zh_CN' /etc： 递归查找/etc下面含有'zh_CN'字符串的文件
 	   locate rails | grep bin :查找rails安装路径
 	   find . -name 'my*' -ls  
 	   find . -name "rake*" -ls  
-	   rm -r 或者 -rf   
-	   ls -al    
+	   du -smh foldername: 查看文件夹总的占用空间
+	   du -h --max-depth=1: 查看当前文件夹下所有文件的大小
    	   cp -Rf A/* B/     :拷贝A目录下所有文件到B目录
    	   rename "s/.textile/.markdown/" *   #将当前目录下所有.textile的文件扩展名改为.markdown 
    	   env: 显示所有环境变量  将自定义环境变量添加至:/etc/profile 或者~/.bash_profile即可
 ####[解/压缩commpress]
 	   7z e foo.7z  
 	   tar -xjvf foo.tar.bz2  
-	   tar zxvf foo.tar.gz  
+	   tar -czvf target.tar.gz source_dir
+           tar -xzvf target.tar.gz
 ####[系统System] 
 	   echo $PATH   #查看PATH  
 	   PATH="$PATH:/home/workdir"    #追加/home/workdir到PATH  
 ####[网络Network] 
+           netstat –apn: 查看端口情况
 	   wget ftp://180.178.38.221:21/web/wp-content/uploads/* --ftp-user=tree123 --ftp-password=B5EEAAE70102e6 -r  
 	   #copy all files from remote ftp under /web/wp-content/uploads/ deretory  
+	   
 ####[编辑器Vim]
      vim与系统剪切板('+')的通信:  
      sudo apt-get install vim-gui-common安装支持系统剪切板的vim。  
